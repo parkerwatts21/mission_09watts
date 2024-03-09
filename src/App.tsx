@@ -33,7 +33,7 @@ function Header() {
     </div>
   );
 }
-//A team “card” that contains the following information about each school
+//#2 A team “card” that contains the following information about each school
 function Card(props: Team) {
   const oneTeam = props;
   //Some nice styling to each individual card
@@ -59,7 +59,7 @@ function Card(props: Team) {
     </div>
   );
 }
-//A list of team cards that shows all the teams on the list. Using mapping
+//#3 A list of team cards that shows all the teams on the list. Using mapping
 function TeamList() {
   const cardContainerStyle = {
     display: 'grid',
